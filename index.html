@@ -4,710 +4,222 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" cotent="ie=edge">
-    <title>QQ音乐</title>
-    <style>
-        * {
-    margin: 0;
-    padding: 0;
-}
-
-.head {
-    width:1200px;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 2px solid #f3f3f3;
-}
-
-.head>.bottom {
-    text-decoration: none;
-}
-
-.logo {
-    width: 150px;
-    height: 40px;
-    margin-top: 10px;
-    float: left;
-}
-
-.menu {
-    display: inline-block;
-    width: 480px;
-}
-
-.head ul {
-    display: inline-block;
-    justify-content: space-between;
-}
-
-.menu ul li {
-    display: inline-block;
-    list-style: none;
-    width: 80px;
-    height: 50px;
-    padding: 3px;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-}
-
-.menu ul li:hover {
-    background-color: #31c37c;
-    color: #fcf9f2;
-    cursor: pointer;
-}
-
-.menu ul li:active {
-    opacity: 0.7;
-}
-
-.search {
-    display: inline-block;
-}
-
-.search .bottom {
-    color:#a2a9af;
-}
-
-.login {
-    display: inline-block;
-    font-size: 15px;
-    margin-left: 15px;
-}
-
-.vip {
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border: 1px solid #fafafa;
-    background-color: #31c37c;
-    border-radius: 5%;
-    margin-left: 10px;
-    font-size: 13px;
-}
-
-.pay {
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border: 1px solid #fafafa;
-    border-radius: 5%;
-    margin-left: 10px;
-    font-size: 13px;
-}
-
-.login:hover,.vip:hover,.pay:hover {
-    cursor: pointer;
-}
-
-.head1 {
-    width:1500px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.menu1 {
-    display: inline-block;
-    height:50px;
-    width: 900px;
-}
-
-.head1 ul {
-    display: inline-block;
-    justify-content: space-between;
-}
-
-.menu1 ul li {
-    display: inline-block;
-    list-style: none;
-    width: 80px;
-    height: 50px;
-    padding: 3px;
-    font-size: 14px;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-}
-
-.menu1 ul li:hover {
-    color: #31c37c;
-}
-
-.section1 {
-    margin: 0 auto; 
-    background-color: #f6f6f6;
-    background: -webkit-linear-gradient(top,#f6f6f6, #ffffff);
-}
-
-.head2 {
-    width:400px;
-    margin: 0 auto;
-}
-
-.head2 ul {
-    justify-content: space-between;
-}
-
-.head2 ul li {
-    list-style: none;
-    height: 70px;
-    padding: 3px;
-    font-size: 30px;
-    color:#343434;
-    text-align: center;
-    line-height: 100px;
-    text-decoration: none;
-}
-
-.menu2 {
-    height:50px;
-    text-align: center;
-}
-
-.menu2 ul li {
-    display: inline-block;
-    list-style: none;
-    width: 80px;
-    height: 50px;
-    padding: 3px;
-    font-size: 14px;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-}
-
-.menu2 ul li:hover {
-    color: #31c37c;
-}
-
-.box1 {
-    margin: 0 auto;
-    text-align: center;
-    height:400px;
-}
-
-.box11 {
-    display: inline-block;
-    width:210px;
-    height: 250px;
-    margin: 10px 10px;
-}
-
-.box11 img{
-    width: 100%;
-
-}
-
-
-
-.broadcast1 {
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.review1:hover {
-    color: #31c37c;
-}
-
-.box12 {
-    display: inline-block;
-    width:210px;
-    height: 250px;
-    margin: 10px 10px;
-}
-
-.box12 img{
-    width: 100%;
-}
-
-.review2 {
-    margin-top:10px;
-    height: 25px;
-    font-size: 13px;
-}
-
-.broadcast2 {
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.review2:hover {
-    color: #31c37c;
-}
-
-.box13 {
-    display: inline-block;
-    width:210px;
-    height: 250px;
-    margin: 10px 10px;
-}
-
-.box13 img{
-    width: 100%;
-}
-
-.review3 {
-    margin-top:10px;
-    height: 25px;
-    font-size: 13px;
-}
-
-.broadcast3 {
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.review3:hover {
-    color: #31c37c;
-}
-
-.box14 {
-    display: inline-block;
-    width:210px;
-    height: 250px;
-    margin: 10px 10px;
-}
-
-.box14 img{
-    width: 100%;
-}
-
-.review4 {
-    margin-top:10px;
-    height: 25px;
-    font-size: 13px;
-}
-
-.broadcast4 {
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.review4:hover {
-    color: #31c37c;
-}
-
-.box15 {
-    display: inline-block;
-    width:210px;
-    height: 250px;
-    margin: 10px 10px;
-}
-
-.box15 img{
-    width: 100%;
-}
-
-.review5 {
-    margin-top:10px;
-    height: 25px;
-    font-size: 13px;
-}
-
-.broadcast5 {
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.review5:hover {
-    color: #31c37c;
-}
-
-.section2 {
-    margin: 0 auto; 
-    background-color: #f6f6f6;
-    background: -webkit-linear-gradient(top,#f6f6f6, #ffffff);
-}
-
-.head3 {
-    width:400px;
-    margin: 0 auto;
-}
-
-.head3 ul {
-    justify-content: space-between;
-}
-
-.head3 ul li {
-    list-style: none;
-    height: 70px;
-    padding: 3px;
-    font-size: 30px;
-    color:#343434;
-    text-align: center;
-    line-height: 100px;
-    text-decoration: none;
-}
-
-.menu3 {
-    height:50px;
-    text-align: center;
-}
-
-.menu3 ul li {
-    display: inline-block;
-    list-style: none;
-    width: 80px;
-    height: 50px;
-    padding: 3px;
-    font-size: 14px;
-    line-height: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.menu3 ul li:hover {
-    color: #31c37c;
-}
-
-.box2 {
-    margin: 0 auto;
-    text-align: center;
-    height: 100px;
-}
-
-.box21 {
-    display: inline-block;
-    width: 400px;
-    height: 100px;
-    margin: 10px 10px;
-}
-
-.box21 img {
-    float: left;
-    height: 100%;
-}
-
-.content1 {
-    float: left;
-    width: 300px;
-}
-
-.song1 {
-    width:80px;
-    font-display: block;
-    margin-top: 10px;
-    padding-right: 10px;
-    height: 25px;
-    font-size: 13px;
-}
-
-.singer1 {  
-    width:70px;
-    margin-top:10px;
-    padding-right: 10px;
-    height: 25px;
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.song1:hover {
-    color: #31c37c;
-}
-
-.time1 {
-    float: right;
-    margin-top:5px;
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.box22 {
-    display: inline-block;
-    width: 400px;
-    height: 100px;
-    margin: 10px 10px;
-}
-
-.box22 img {
-    float: left;
-    height: 100%;
-}
-
-.content2 {
-    float: left;
-    width:300px;
-}
-
-.song2 {
-    width:80px;
-    font-display: block;
-    margin-top: 10px;
-    padding-right: 10px;
-    height: 25px;
-    font-size: 13px;
-}
-
-.singer2 {
-    width:70px;
-    margin-top:10px;
-    padding-right: 10px;
-    height: 25px;
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.song2:hover {
-    color: #31c37c;
-}
-
-.time2 {
-    float: right;
-    margin-top:5px;
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.box23 {
-    display: inline-block;
-    width: 400px;
-    height: 100px;
-    margin: 10px 10px;
-}
-
-.box23 img {
-    float: left;
-    height: 100%;
-}
-
-.content3 {
-    float: left;
-    width: 300px;
-}
-
-.song3 {
-    width:80px;
-    font-display: block;
-    margin-top: 10px;
-    padding-right: 10px;
-    height: 25px;
-    font-size: 13px;
-}
-
-.singer3 { 
-    width:50px;
-    margin-top:10px;
-    padding-right: 10px;
-    height: 25px;
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-.song3:hover {
-    color: #31c37c;
-}
-
-.time3 {
-    float: right;
-    margin-top:5px;
-    font-size: 13px;
-    color: #a3a2a0;
-}
-
-
-.error {
-    height: 150px;
-}
-.section3 {
-    margin: 0 auto; 
-    background-color: #f6f6f6;
-    background: -webkit-linear-gradient(top,#f6f6f6, #ffffff);
-}
-
-.box3 {
-    margin: 0 auto;
-    text-align: center;
-    height: 300px;
-}
-
-.box31 {
-    display: inline-block;
-    width: 500px;
-    margin: 10px 10px;
-}
-
-.box31 img {
-    width: 100%;
-}
-
-.box32 {
-    display: inline-block;
-    width: 500px;
-    margin: 10px 10px;
-}
-
-.box32 img {
-    width: 100%;
-}
-
-.box4 {
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-.box4 img {
-    width: 100%;
-}
-
-
+    <title>Geek招新网站 加入我们</title>
+    <link rel="stylesheet" href="CSS/css.css">
+
+    <!--JS部分-->
+    <script>
+        window.onload = function () {
+    var lis = document.querySelectorAll('.q');
+    var divs=document.querySelectorAll('.an')
+    for (var i = 0; i < lis.length; i++) {
+        lis[i].setAttribute('index', i);
+        lis[i].onclick = function () {
+            for (var i = 0; i < lis.length; i++) {
+                divs[i].style.display = 'none';
+            }
+            var index = this.getAttribute('index');
+            divs[index].style.display = 'block';
+        }
+    }
+}
+
+    </script>
 
-    </style>
  </head>
  <body>
-    <!--头部菜单-->
-    <div class="head">
-        <a herf="https://y.qq.com/" target="_blank">
-            <img class="logo" src="images/logo.png" alt="">
+    <!--头部导航栏-->
+    <div class="menu">
+        <a class="A" href="#A"> Introduction
+            <div class="qq">
+                <img class="qr" src="images/QRcode.png" alt="">
+            </div>
         </a>
-        <div class="menu">
-            <ul>
-                <li>音乐馆</li>
-                <li>我的音乐</li>
-                <li>客户端</li>
-                <li>开放平台</li>
-                <li>VIP</li>
-            </ul>
-        </div>
-        <div class="search">
-            <input class="bottom" type="t" value="王源新歌">
-            <span class="login">
-                <a herf="#">登录</a>
-            </span>
-        </div>
-        <span class="vip">开通VIP</span>
-        <span class="pay">充值</span>
-    </div>
-    <div class="head1">
-        <div class="menu1">
-            <ul>
-                <li>首页</li>
-                <li>歌手</li>
-                <li>新碟</li>
-                <li>排行榜</li>
-                <li>分类歌单</li>
-                <li>电台</li>
-                <li>MV</li>
-                <li>数字专辑</li>
-            </ul>
-        </div>
-    </div>
-    <!--歌单推荐-->
-    <div class="section1">
-        <div class="head2">
-            <ul>
-                <li><strong>歌 单 推 荐</strong></li>
-            </ul>
-        </div>
-        <div class="menu2">
-            <ul>
-                <li>为你推荐</li>
-                <li>短视频热歌</li>
-                <li>节奏控</li>
-                <li>经典</li>
-                <li>官方歌单</li>
-                <li>情歌</li>
-            </ul>
-        </div>
-        <div class="box1">
-            <div class="box11">
-                <img class="p1" src="images/p1.webp" alt="">
-                <p class="review1">音乐封神现场：顶级编唱震撼人心</p>
-                <p class="broadcast1">播放量：1699.7万</p>
-            </div>
-            <div class="box12">
-                <img class="p2" src="images/p2.webp" alt="">
-                <p class="review2">深夜我又想起你，泪水打湿了枕头</p>
-                <p class="broadcast2">播放量：4589.7万</p>
-            </div>
-            <div class="box13">
-                <img class="p3" src="images/p3.webp" alt="">
-                <p class="review3">工作之余，让我们安静下来</p>
-                <p class="broadcast3">播放量：33.8万</p>
-            </div>
-            <div class="box14">
-                <img class="p4" src="images/p4.webp" alt="">
-                <p class="review4">房间一隅，有我安静的心跳声</p>
-                <p class="broadcast4">播放量：56.2万</p>
-            </div>
-            <div class="box15">
-                <img class="p5" src="images/p5.webp" alt="">
-                <p class="review5">500+车载KTV：不会也要跟着跳</p>
-                <span class="broadcast5">播放量：2290.3万</span>
-            </div>
-        </div>
-    </div>
-    <!--新歌首发-->
-    <div class="section2">
-        <div class="head3">
-            <ul>
-                <li><strong>新 歌 首 发</strong></li>
-            </ul>
-        </div>
-        <div class="menu3">
-            <ul>
-                <li>最新</li>
-                <li>内地</li>
-                <li>港台</li>
-                <li>欧美</li>
-                <li>韩国</li>
-                <li>日本</li>
-            </ul>
-        </div>
-        <div class="box2">
-            <div class="box21">
-                <img class="b1" src="images/b1.webp" alt="">
-                <div class="content1">
-                    <div class="song1">恋爱动物</div>
-                    <div class="singer1">汪苏泷</div>
-                    <div class="time1">03:08</div>
-                </div>
-            </div>
-            <div class="box22">
-                <img class="p2" src="images/b2.webp" alt="">
-                <div class="content2">
-                   <div class="song2">炙热的梦</div>
-                   <div class="singer2">王一博</div>
-                   <div class="time2">03:45</div>
-                </div>
-            </div>
-            <div class="box23">
-                <img class="p3" src="images/b3.webp" alt="">
-                <div class="content3">
-                    <div class="song3">奔赴时间尽头的流萤</div>
-                    <div class="singer3">王源</div>
-                    <div class="time3">03:24</div>
-                </div>
-            </div>
-        </div>
+        <a class="B" href="#B">About Us</a>
+        <a class="C" href="https://campus.new-thread.com/"> NewThread</a>
+        <a class="D" href="#D">Contact Us</a>
+        <a class="E" href="#E">Q&A</a>
     </div>
     <div class="error"></div>
 
-    <!--精彩推荐-->
-    <div class="section3">
-        <div class="head3">
-            <ul>
-                <li><strong>精 彩 推 荐</strong></li>
-            </ul>
+    <!--homepage部分-->
+    <div class="header">
+        <div class="part1">
+            <img class="logo" src="images/decoration_Geek.png" alt="">
         </div>
-        <div class="box3">
-            <div class="box31">
-                <img class="c1" src="images/c1.webp" alt="">
+    </div>
+    <div class="box1">
+        <div class="part2">
+            <a name="A">Introduction</a>
+        </div>
+    </div>
+
+    <!--开发程序员-->
+    <div class="box2">
+        <span class="font1">
+            <p class="content11">开发程序猿</p>
+            <p class="content12">“Stay Hungry，Stay Foolish”</p>
+            <p class="content13">前端：前端开发是创建Web或app视觉界面呈现给用户的过程通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，实现互联网产品的用户界面交互。</p>
+            <p class="content14">后端：通常也称服务器端开发。不对用户显示,负责处理前端的请求，进行逻辑处理和数据交互。 客户端: 移动应用开发是为了小型、无线计算设备编写软件的流程和程序的集合，例如智能手机或平板电脑。</p>   
+        </span>
+        <span class="image1">
+            <img class="programmer" src="images/Geek_Programmer.png" alt="">
+        </span>
+    </div>
+
+    <!--产品经理-->
+    <div class="box3">
+        <span class="image2">
+            <img class="pm" src="images/Geek_PM.png" alt="">
+        </span> 
+        <span class="font2">
+            <p class="content21">产品经理</p>
+            <p class="content22">"好的软件的特征是,明明没用过，但总觉得用过似的。"</p>  
+            <p class="content23">PM是针对某一项或是某一类的产品进行规划和管理的人员。 PM需要拥有缜密的产品逻辑思维，研究用户心理，负责产品的整个生命周期。 PM参与产品的UI和交互设计，为设计和开发确定产品原型，能够将产品变得有个性,操作变得舒适简单、自由。 PM需要一定的文档能力和沟通能力，能够在团队合作的过程中跟各个角色进行有效沟通。</p>
+        </span>
+    </div>
+
+    <!--游戏开发-->
+    <div class="box4">
+        <span class="font3">
+            <p class="content31">游戏开发</p>
+            <p class="content32">"TECH OTAKUS SAVE THE WORLD"</p>
+            <p class="content33">对游戏开发的热爱和追求，使我们相聚于此。 涉及计算机图形学的学习，我们使用物理模拟引擎Unity开发我们所追求的世界，一个故事，一个角色，在我们的世界里改变现实，创造新的可能，我们参与，我们改变，我们创造...</p>
+        </span>
+        <span class="image3">
+            <img class="game" src="images/Geek_Game.png" alt="">
+        </span>
+    </div>
+
+    <!--游戏美术-->
+    <div class="box5">
+        <span class="image4">
+            <img class="designer" src="images/Geek_Designer.png" alt="">
+        </span> 
+        <span class="font4">
+            <p class="content41">游戏美术</p>
+            <p class="content42">"路漫漫其修远兮，非大毅力者不能。"</p>  
+            <p class="content43">通俗的说法是游戏中所能看到的一切画面都属于游戏美术，其中包括了角色、UI、场景、道具、动画、特效等。 CG艺术的一个分支：游戏美术。游戏美术是游戏制作的重要部分的，通过各种软件引擎和技术技巧，完成相应的部分游戏制作， 各个不同岗位的游戏美术师们通力合作，才能完成一部完整的游戏。</p>
+        </span>
+    </div>
+
+    <!--安全-->
+
+    <!--about us部分-->
+    <div class="aboutus">
+        <div class="title1">
+            <a name="B">About Us</a>
+        </div>
+        <div class="border1">
+            <img  src="images/decoration_Decoration.png" alt="">
+        </div>
+        <div class="border2">
+            <img  src="images/decoration_Decoration.png" alt="">
+        </div>
+        <div class="border3">
+            <img  src="images/decoration_Decoration.png" alt="">
+        </div>
+        <div class="beauty">
+            <img  src="images/decoration_Butterfly.png" alt="">
+            <div class="beautyfont">保持好奇心！</div>
+        </div>
+        <div class="border4">
+            <img  src="images/decoration_Decoration.png" alt="">
+        </div>
+        <div class="speech">
+            <img class="speechimg" src="images/about_Speech.png" alt="">
+            <p class="speechfont">每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。</p>
+        </div>
+        <div class="diversity">
+            <img class="diversityimg" src="images/about_Diversity.png" alt="">
+            <p class="diversityfont">多元化是我们的特色。在这里，你可以拥有多种方向选择，前后端、安全、AI、产品/设计、游戏等。</p>
+        </div>
+        <div class="time">
+            <img class="timeimg" src="images/about_Time.png" alt="">
+            <p class="timefont">耐心、毅力是我们必备的品质，每周我们会至少花30小时在实验室中。以保证技术的精进。</p>
+        </div>
+    </div>
+
+    <!--contact us部分-->
+    <div class="contactus">
+        <div class="tree1">
+            <img class="treewith"  src="images/decoration_TreeWithSometing.png" alt="">
+        </div>
+        <div class="tree4">
+            <img class="ladybug" src="images/decoration_Ladybug.png" alt="">
+        </div>
+        <div class="tree2">
+            <img class="tree" src="images/decoration_Tree.png" alt="">
+        </div>
+        <div class="tree3">
+            <img class="chameleon" src="images/decoration_Chameleon.png" alt="">
+        </div>
+        <img class="leave" src="images/decoration_Leaves.png" alt="">
+        <div class="title2">
+            <a name="D">Contact Us</a>
+        </div>
+        <div class="contant1">
+            <div class="inf1">•热爱计算机，具有geek精神，喜欢DIY，动手能力较强</div>
+            <div class="inf1">•有编程/算法/硬件基础为佳(有作品可附上)</div>
+            <div class="inf1">•有足够的空余时间，热爱思考，对事物有自己的见解</div>
+            <div class="inf2">ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群,在读学生, 都可邮件到newthread_geek@outlook.com报名加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</div>
+        </div> 
+        <div class="qq_group">QQ_Group</div>
+        <div class="e-mail">E-mail</div>
+        <div class="github">Github</div>
+    </div>
+
+    <!--解决脱标-->
+    <div class="error1"> </div>
+
+    <!--more question部分-->
+    <div class="question">
+        <div class="title3">
+            <a name="E">More Questions</a>
+        </div>
+        <div class="contant2">
+            <div class="P">
+                <div class="q">1.什么是Geek(极客)？Geek精神又是什么？
+                    <div class="an">拥有好奇之心，改变之力，爱钻研，能折腾。</div>
+                </div>
             </div>
-            <div class="box32">
-                <img class="c2" src="images/c2.webp" alt="">
+            <div class="P">
+                <div class="q">2.招新是安排在什么时间？
+                    <div class="an">按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年会有一些改动，笔试地 点一般在9号教学楼。 如果想要了解我们，可以加入我们的QQ群，招新具体的安排/变动会在招新群通知。</div>
+                </div>
+            </div>
+            <div class="P">
+                <div class="q">3.我们有考核吗？考核流程是怎样的呀？
+                    <div class="an">嗯...我们一共有一轮笔试和两轮面试。权衡技术、经验和学习能力，第一轮是一些视野性的题目，淘汰率并不高。第二轮单独面试， 根据你的笔试提出技术相关的问题、兴趣爱好、个人看法。最后一轮群面，首先问及时间分 配上的问题，其次也会向你提出各种奇怪的问题。这一轮中许多题目其实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过成为预备成员啦。</div>
+                </div>
+            </div>
+            <div class="P">
+                <div class="q">4.考核是怎样的形式？
+                    <div class="an">在考核期间每人会拥有一位'长者'带你入门，学习技术与知识，交流经验与想法。完成每周的新人任务后再进行一次考核筛选 后就可以成为Geek组正式成员啦！在考核期必须满足每周30个小时在实验室哦,所以考核期也不可以懈怠哦！</div>
+                </div>
+            </div>
+            <div class="P">
+                <div class="q">5.进入Geek组之后都有什么福利呢？
+                    <div class="an">一对一的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长，组内管理较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。 打破平淡，与同样疯狂的人把疯狂的idea实现，磨砺耐性、培养思维、成就梦想。Lab设备/网络资源充足，闲暇之余也有组织活动。更有许多的故事等你来听~</div>
+                </div>
+            </div>
+            <div class="P">
+                <div class="q">6.进入团队会影响我的日常学习吗？
+                    <div class="an">你要知道大学是一个可以自由安排自己学习生活的地方。如果你想在上课之余充实自己、激励自己，最好的方法就是和比自己更优秀的人在一起。团队不缺优秀的 人，而我们也期待同样优秀的你，让我们一起前进！小组里也有不少保研, 考研的前辈们, 大部分都能找到一个平衡点, 而且团队的经历对你日后读研, 工作都大有裨益。</div>
+                </div>
+            </div>
+            <div class="P">
+                <div class="q">7.老师以及学长学姐们的期望是什么?
+                    <div class="an">我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，逻辑性强，善于和各种文化的人合作.“每个人都可以做自己想做的事情，每个人的方向不一样。 如果你想做产品或有不错的 idea，那么就可以找志同道合的人一起合作。”</div>
+                </div>
             </div>
         </div>
     </div>
 
     <!--底部-->
-    <div class="box4">
-        <img class="bottom" src="images/bottom.png" alt="">
+    <div class="bottom">
+        <P class="box0">1234567</P>
     </div>
-
  </body>
 </html>
 </DOCTYPE>
