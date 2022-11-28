@@ -7,10 +7,10 @@ position: fixed;
 text-align: center;
 height: auto;
 width: 95%;
-margin: 0 45px;
+margin: 0 3%;
 background-color: #fdb42d;
 opacity: 0.8;  /*透明度*/
-line-height: 50px;
+line-height: 5vh;
 display: inline-block;
 font-size: 1.55rem;
 color: #f1f8ff;
@@ -21,7 +21,7 @@ z-index: 2;   /*浮于最上面*/
 
 .menu a {
 display: inline-block;
-padding: 0 80px;
+padding: 0 4%;
 }
 
 .menu .C {
@@ -42,12 +42,12 @@ border-radius: 20px;
 height: auto;
 width: 40%;
 border-color: #ffb11f;
-border-width: 3px;
+border-width: 0.2%;
 border-style: solid;
 border-radius: 5px;
 display: none;
 position: absolute;
-margin: 5px;
+margin: 2%;
 }
 
 .A {
@@ -159,7 +159,7 @@ width: 100%;
 }
 
 .error {
-height: 50px;
+height: 20vh;
 }
 
 .header {
@@ -171,7 +171,7 @@ height: 130vh;
 
 .part1 {
 display: inline-block;
-margin: 90px 550px;
+margin: 5% 30%;
 height: 30vh;
 transition: all 0.4s;
 } 
@@ -187,7 +187,7 @@ height: 100%;
 .box1 {
 background-image: url(../images/decoration_Transition.png);
 background-size: 100% auto;
-margin: o auto;
+margin: 0 auto;
 height: 20vh;
 }
 
@@ -204,7 +204,7 @@ height: auto;
 border-width: 4px;
 border-color: #808080;
 border-style: solid;
-margin: 50px 200px;
+margin: 5% 12%;
 text-align: center;
 border-radius: 40px;
 transition: all 0.4s;
@@ -224,7 +224,7 @@ width: 60%;
 font-size: 3.125rem;
 color: #000000;
 font-weight: 700;
-margin: 30px 55px;
+margin: 5% 6%;
 text-align: left;
 }
 
@@ -232,27 +232,27 @@ text-align: left;
 font-size: 2.5rem;
 color: #6198f4;
 font-weight: 700;
-margin: 30px 40px;
+margin: 5% 6%;
 text-align: left;
 }
 
 .content13 {
 font-size: 1.5625rem;
 color: #0c0603;
-margin: 30px 20px;
+margin: 5% 4%;
 text-align: left;
 }
 
 .content14 {
 font-size: 1.5625rem;
 color: #0c0603;
-margin: 30px 20px;
+margin: 4% 3%;
 text-align: left;
 }
 
 .image1 img{
 width: 25%;
-padding: 40px 20px 40px;
+padding: 6% 3% 4%;
 transition: all 0.4s;  
 }
 
@@ -267,7 +267,7 @@ transition: all 0.4s;
 border-width: 4px;
 border-color: #808080;
 border-style: solid;
-margin: 50px 200px;
+margin: 5% 12%;
 text-align: center;
 border-radius: 40px;
 transition: all 0.4s;
@@ -286,7 +286,7 @@ width: 60%;
 font-size: 3.125rem;
 color: #000000;
 font-weight: 700;
-margin: 30px 55px;
+margin: 5% 6%;
 text-align: left;
 }
 
@@ -294,20 +294,20 @@ text-align: left;
 font-size: 2.5rem;
 color: #f892ee;
 font-weight: 700;
-margin: 30px 40px;
+margin: 5% 6%;
 text-align: left;
 }
 
 .content23 {
 font-size: 1.5625rem;
 color: #0c0603;
-margin: 30px 20px;
+margin: 5% 4%;
 text-align: left;
 }
 
 .image2 img{
 width: 25%;
-padding: 40px 20px 40px;
+padding: 6% 3% 4%;
 transition: all 0.4s;
 }
 
@@ -321,7 +321,7 @@ transition: all 0.4s;
 border-width: 4px;
 border-color: #808080;
 border-style: solid;
-margin: 50px 200px;
+margin: 5% 12%;
 text-align: center;
 border-radius: 40px;
 transition: all 0.4s;
@@ -340,7 +340,7 @@ width: 60%;
 font-size: 3.125rem;
 color: #000000;
 font-weight: 700;
-margin: 30px 55px;
+margin: 5% 4%;
 text-align: left;
 }
 
@@ -348,20 +348,20 @@ text-align: left;
 font-size: 2.5rem;
 color: #34d0c3;
 font-weight: 700;
-margin: 30px 40px;
+margin: 5% 4%;
 text-align: left;
 }
 
 .content33 {
 font-size: 1.5625rem;
 color: #0c0603;
-margin: 30px 20px;
+margin: 5% 3%;
 text-align: left;
 }
 
 .image3 img{
 width: 27%;
-padding: 40px 20px 40px;
+padding: 6% 3% 4%;
 transition: all 0.4s;
 }
 
@@ -375,7 +375,7 @@ transition: all 0.4s;
 border-width: 4px;
 border-color: #808080;
 border-style: solid;
-margin: 50px 200px;
+margin: 5% 12%;
 text-align: center;
 border-radius: 40px;
 transition: all 0.4s;
@@ -394,7 +394,7 @@ width: 60%;
 font-size: 3.125rem;
 color: #000000;
 font-weight: 700;
-margin: 30px 55px;
+margin: 5% 4%;
 text-align: left;
 }
 
@@ -402,20 +402,20 @@ text-align: left;
 font-size: 2.5rem;
 color: #ffbcc3;
 font-weight: 700;
-margin: 30px 40px;
+margin: 5% 4%;
 text-align: left;
 }
 
 .content43 {
 font-size: 1.5625rem;
 color: #0c0603;
-margin: 30px 20px;
+margin: 5% 3%;
 text-align: left;
 }
 
 .image4 img{
 width: 25%;
-padding: 40px 20px 40px;
+padding: 6% 3% 4%;
 transition: all 0.4s;
 }
 
@@ -430,7 +430,7 @@ height: 75vh;
 border-width: 8px;
 border-color: #818181;
 border-style: solid;
-margin: 100px 150px;
+margin: 6% 9.5%;
 text-align: center;
 border-radius: 40px;
 background: #fffdf5;
@@ -533,8 +533,8 @@ height: auto;
 border-color: #861384;
 border-style: solid;
 border-width: 8px;
-padding: 20px;
-margin: 50px 50px;
+padding: 2%;
+margin: 2%;
 border-radius: 40px;
 transition: all 0.4s;
 }
@@ -565,7 +565,7 @@ width:60%
 
 .speechfont, .diversityfont, .timefont {
 font-size: 1.25rem;
-margin: 40px 10px;
+margin: 5% 2%;
 }
 
 .contactus {
@@ -575,7 +575,7 @@ height: 70vh;
 border-width: 8px;
 border-color: #007c95;
 border-style: solid;
-margin: 60px 150px;
+margin: 6% 9.5%;
 text-align: center;
 border-radius: 40px;
 z-index: 1;
@@ -591,35 +591,35 @@ height:auto;
     left: 0;
     width: 15%;
     height: auto;
-    top:-50px;
+    top:-4%;
 }
 
 .tree4 img {
     position: absolute;
-    left: -10px;
+    left: -4%;
     width: 8%;
-    height: 100px;
-    bottom: -15px;
+    height: auto ;
+    bottom: -3.5%;
 }
 
  .tree2 img {
     position: absolute;
-    right: -20px;
+    right: -4%;
     width: 15%;
     height: auto;
-    top:-20px;
+    top:-4%;
 }
 
 .tree3 img {
     position: absolute;
-    right: 120px;
+    right: 5%;
     width: 45%;
     height: auto;
-    bottom: -50px;
+    bottom: -4%;
 }
 
 .title2 {
-margin: 30px 50px;
+margin: 3% 7%;
 display: inline-block;
 font-size: 3.75rem;
 color: #374e52;
@@ -633,14 +633,14 @@ margin: 0 auto;
 
 .inf1 {
 font-size: 1.875rem;
-margin: 30px;
+margin: 2%;
 text-align: left;
 }
 
 .inf2 {
 font-size:1.25rem;
 color: #717982;
-margin: 30px;
+margin: 4%;
 text-align: left;
 }
 
@@ -658,8 +658,8 @@ border-radius: 15px;
 font-size: 1.125rem;
 background-color: #1a7b1e;
 color: #f4faff;
-padding: 5px 0;
-margin: 20px;
+padding: 0.5% 0;
+margin: 3%;
 text-align: center;
 box-shadow: 3px 3px 3px #888888, 3px 3px 3px #888888;
 text-decoration: none;
@@ -675,8 +675,8 @@ border-radius: 15px;
 font-size: 1.125rem;
 background-color: #1a7b1e;
 color: #f4faff;
-padding: 5px 0;
-margin: 20px;
+padding: 0.5% 0;
+margin: 3%;
 text-align: center;
 box-shadow: 3px 3px 3px #888888, 3px 3px 3px #888888;
 text-decoration: none;
@@ -703,8 +703,8 @@ border-radius: 15px;
 font-size: 1.125rem;
 background-color: #1a7b1e;
 color: #f4faff;
-padding: 5px 0;
-margin: 20px;
+padding: 0.5% 0;
+margin: 3%;
 text-align: center;
 box-shadow: 3px 3px 3px #888888, 3px 3px 3px #888888;
 transition: all 0.4s;
@@ -738,7 +738,7 @@ height: auto;
 border-width: 8px;
 border-color: #6095f4;
 border-style: solid;
-margin: 100px 150px;
+margin: 6% 8%;
 text-align: center;
 border-radius: 40px;
 background-image: url(../images/background_QA.png);
@@ -747,14 +747,14 @@ background-size: 100% auto;
 
 .contant2 {
 height: auto;
-padding-bottom: 150px;
+padding-bottom: 5%;
 width:55%;
 text-align: left;
 margin: 0 auto;
 }
 
 .title3 {
-margin: 30px 50px;
+margin: 5% 7%;
 font-size: 3.75rem;
 }
 
@@ -771,7 +771,7 @@ font-size: 3.75rem;
 .q {   
 width: 100%;
 height: auto;
-font-size: 25px;
+font-size: 1.5625rem;
 padding-bottom: 25px;
 }
 
@@ -785,7 +785,7 @@ display: none;
 border-radius: 10px;
 background-color: #78b1ea;
 color: #e8f6ff;
-font-size:20px;
+font-size:1.25rem;
 }
 
 /*.q:hover .an {
@@ -801,5 +801,5 @@ display: block;
 
 .box0 {
     text-align: center;
-    margin: 10px;
+    margin: 3%;
 }
