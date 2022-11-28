@@ -24,6 +24,13 @@
     }
 }
 
+function copy() {
+    var mail=document.getElementById("input");
+    mail.select(); 
+    document.execCommand("Copy"); 
+    alert("Geek邮箱已复制到剪贴板");
+    }
+
     </script>
 
  </head>
@@ -33,6 +40,7 @@
         <a class="A" href="#A"> Introduction
             <div class="qq">
                 <img class="qr" src="images/QRcode.png" alt="">
+                <p class="qrbottom">极客扫码加入Geek</p>
             </div>
         </a>
         <a class="B" href="#B">About Us</a>
@@ -120,8 +128,8 @@
             <img  src="images/decoration_Decoration.png" alt="">
         </div>
         <div class="beauty">
-            <img  src="images/decoration_Butterfly.png" alt="">
-            <div class="beautyfont">保持好奇心！</div>
+                <img  src="images/decoration_Butterfly.png" alt="">
+                    <div class="beautyfont">保持好奇心！</div>
         </div>
         <div class="border4">
             <img  src="images/decoration_Decoration.png" alt="">
@@ -159,14 +167,19 @@
             <a name="D">Contact Us</a>
         </div>
         <div class="contant1">
-            <div class="inf1">•热爱计算机，具有geek精神，喜欢DIY，动手能力较强</div>
-            <div class="inf1">•有编程/算法/硬件基础为佳(有作品可附上)</div>
-            <div class="inf1">•有足够的空余时间，热爱思考，对事物有自己的见解</div>
+            <div class="inf1">• 热爱计算机，具有geek精神，喜欢DIY，动手能力较强</div>
+            <div class="inf1">• 有编程/算法/硬件基础为佳(有作品可附上)</div>
+            <div class="inf1">• 有足够的空余时间，热爱思考，对事物有自己的见解</div>
             <div class="inf2">ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群,在读学生, 都可邮件到newthread_geek@outlook.com报名加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</div>
+        </div>
+        <div class="button1">
+            <a class="github" href="https://www.bilibili.com/video/BV11h411D7fV/">github</a> <!--bilibili页面跳转-->
+            <a class="qq_group" href="#D">QQ_Group</a>
+            <div class="e-mail">E-mail
+                <button class="email" type="button" onclick="copy()"></button>
+                <textarea id="input">newthread_geek@outlook.com</textarea>
+            </div>
         </div> 
-        <div class="qq_group">QQ_Group</div>
-        <div class="e-mail">E-mail</div>
-        <div class="github">Github</div>
     </div>
 
     <!--解决脱标-->
@@ -218,7 +231,10 @@
 
     <!--底部-->
     <div class="bottom">
-        <P class="box0">1234567</P>
+        <div class="box0">
+            <p>[prentending this is true]</p>
+            <p>Copyright&copy;2002-2022 itaweya.github.io All Right Reserved 备案号：啦啦啦 </p>
+        </div>
     </div>
  </body>
 </html>
