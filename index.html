@@ -30,24 +30,36 @@ function copy() {
     document.execCommand("Copy"); 
     alert("Geek邮箱已复制到剪贴板");
     }
+
     </script>
-<style>
-    @media only screen
-and (min-device-width : 768px){
-   .PaperTitle{
-       padding: 0 8rem;
-   }
-}
-@media only screen
-and (max-device-width : 768px) {
-    .PaperTitle{
-	padding: 0 3rem;
+
+    <style>
+        @media  screen and (max-width : 768px){
+       .PaperTitle{
+           width: 100%;
+       }
     }
-}
-</style>
+    @media  screen and (min-width : 768px) {
+        .PaperTitle{
+            width: 750px;
+        }
+    }
+    @media  screen and (min-width : 1200px) {
+        .PaperTitle{
+            width: 1170px;
+        }
+    }
+    @media  screen and (min-width : 992px) {
+        .PaperTitle{
+            width: 970px;
+        }
+    }
+    </style>
 
  </head>
  <body>
+
+<div class="PaperTitle">
     <!--头部导航栏-->
     <div class="menu">
         <a class="A" href="#A"> Introduction
@@ -249,6 +261,7 @@ and (max-device-width : 768px) {
             <p>Copyright&copy;2002-2022 itaweya.github.io All Right Reserved 备案号：啦啦啦 </p>
         </div>
     </div>
+</div>
  </body>
 </html>
 </DOCTYPE>

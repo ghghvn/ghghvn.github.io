@@ -1,18 +1,40 @@
+@media  screen and (max-width : 768px){
+    .PaperTitle{
+        width: 100%;
+    }
+ }
+ @media  screen and (min-width : 768px) {
+     .PaperTitle{
+         width: 750px;
+     }
+ }
+ @media  screen and (min-width : 1200px) {
+     .PaperTitle{
+         width: 1170px;
+     }
+ }
+ @media  screen and (min-width : 992px) {
+     .PaperTitle{
+         width: 970px;
+     }
+ }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 .menu {
 position: fixed;
 text-align: center;
-height: auto;
-width: 95%;
-margin: 0 3%;
+height: 50px;
+width:1600px;
+margin: 0 45px;
 background-color: #fdb42d;
 opacity: 0.8;  /*透明度*/
-line-height: 5vh;
+line-height: 50px;
 display: inline-block;
-font-size: 1.55rem;
+font-size: 25px;
 color: #f1f8ff;
 border-radius: 10px;
 text-decoration: none;
@@ -21,7 +43,7 @@ z-index: 2;   /*浮于最上面*/
 
 .menu a {
 display: inline-block;
-padding: 0 4%;
+padding: 0 80px;
 }
 
 .menu .C {
@@ -39,15 +61,15 @@ border-radius: 20px;
 }
 
 .qq {
-height: auto;
-width: 40%;
+height: 180px;
+width: 150px;
 border-color: #ffb11f;
-border-width: 0.2%;
+border-width: 3px;
 border-style: solid;
 border-radius: 5px;
 display: none;
 position: absolute;
-margin: 2%;
+margin: 5px;
 }
 
 .A {
@@ -150,29 +172,30 @@ display: block;
 }
 
 .qq img {
-    height: auto;
+    height: 80%;
 width: 100%;
 }
 
 .qrbottom {
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .error {
-height: 20vh;
+height: 50px;
 }
 
 .header {
 background-image: url(../images/background_Homepage.png);
-background-size: 100% 130vh;
+background-size: 1700px 1280px;
 margin: 0 auto;
-height: 130vh;
+width: 1700px;
+height: 1280px;
 }
 
 .part1 {
 display: inline-block;
-margin: 5% 30%;
-height: 30vh;
+margin: 90px 550px;
+height:300px;
 transition: all 0.4s;
 } 
 
@@ -186,25 +209,26 @@ height: 100%;
 
 .box1 {
 background-image: url(../images/decoration_Transition.png);
-background-size: 100% auto;
-margin: 0 auto;
-height: 20vh;
+background-size: 1700px 200px;
+margin: o auto;
+height: 200px;
+width: 1700px;
 }
 
 .part2 {
 color: #000891;
-font-size: 3.75rem;
+font-size: 60px;
 font-weight: 700;
 text-align: center;
 }
 
 .box2 {
-width: 80%;
-height: auto;
+width: 1300px;
+height: 500px;
 border-width: 4px;
 border-color: #808080;
 border-style: solid;
-margin: 5% 12%;
+margin: 50px 200px;
 text-align: center;
 border-radius: 40px;
 transition: all 0.4s;
@@ -217,42 +241,42 @@ transition: all 0.4s;
 
 .font1 {
 float: left;
-width: 60%;
+width: 800px;
 }
 
 .content11 {
-font-size: 3.125rem;
+font-size: 50px;
 color: #000000;
 font-weight: 700;
-margin: 5% 6%;
+margin: 30px 55px;
 text-align: left;
 }
 
 .content12 {
-font-size: 2.5rem;
+font-size: 40px;
 color: #6198f4;
 font-weight: 700;
-margin: 5% 6%;
+margin: 30px 40px;
 text-align: left;
 }
 
 .content13 {
-font-size: 1.5625rem;
+font-size: 25px;
 color: #0c0603;
-margin: 5% 4%;
+margin: 30px 20px;
 text-align: left;
 }
 
 .content14 {
-font-size: 1.5625rem;
+font-size: 25px;
 color: #0c0603;
-margin: 4% 3%;
+margin: 30px 20px;
 text-align: left;
 }
 
 .image1 img{
-width: 25%;
-padding: 6% 3% 4%;
+width: 350px;
+padding: 40px 20px 40px;
 transition: all 0.4s;  
 }
 
@@ -262,12 +286,12 @@ transition: all 0.4s;
 }
 
 .box3 {
-    width: 80%;
-    height: auto;
+width: 1300px;
+height: 500px;
 border-width: 4px;
 border-color: #808080;
 border-style: solid;
-margin: 5% 12%;
+margin: 50px 200px;
 text-align: center;
 border-radius: 40px;
 transition: all 0.4s;
@@ -279,35 +303,35 @@ transition: all 0.4s;
 
 .font2 {
 float: right;
-width: 60%;
+width: 800px;
 }
 
 .content21 {
-font-size: 3.125rem;
+font-size: 50px;
 color: #000000;
 font-weight: 700;
-margin: 5% 6%;
+margin: 30px 55px;
 text-align: left;
 }
 
 .content22 {
-font-size: 2.5rem;
+font-size: 40px;
 color: #f892ee;
 font-weight: 700;
-margin: 5% 6%;
+margin: 30px 40px;
 text-align: left;
 }
 
 .content23 {
-font-size: 1.5625rem;
+font-size: 25px;
 color: #0c0603;
-margin: 5% 4%;
+margin: 30px 20px;
 text-align: left;
 }
 
 .image2 img{
-width: 25%;
-padding: 6% 3% 4%;
+width: 350px;
+padding: 40px 20px 40px;
 transition: all 0.4s;
 }
 
@@ -316,12 +340,12 @@ transition: all 0.4s;
 }
 
 .box4 {
-    width: 80%;
-    height: auto;
+width: 1300px;
+height: 500px;
 border-width: 4px;
 border-color: #808080;
 border-style: solid;
-margin: 5% 12%;
+margin: 50px 200px;
 text-align: center;
 border-radius: 40px;
 transition: all 0.4s;
@@ -333,35 +357,35 @@ transition: all 0.4s;
 
 .font3 {
 float: left;
-width: 60%;
+width: 800px;
 }
 
 .content31 {
-font-size: 3.125rem;
+font-size: 50px;
 color: #000000;
 font-weight: 700;
-margin: 5% 4%;
+margin: 30px 55px;
 text-align: left;
 }
 
 .content32 {
-font-size: 2.5rem;
+font-size: 40px;
 color: #34d0c3;
 font-weight: 700;
-margin: 5% 4%;
+margin: 30px 40px;
 text-align: left;
 }
 
 .content33 {
-font-size: 1.5625rem;
+font-size: 25px;
 color: #0c0603;
-margin: 5% 3%;
+margin: 30px 20px;
 text-align: left;
 }
 
 .image3 img{
-width: 27%;
-padding: 6% 3% 4%;
+width: 350px;
+padding: 40px 20px 40px;
 transition: all 0.4s;
 }
 
@@ -370,12 +394,12 @@ transition: all 0.4s;
 }
 
 .box5 {
-    width: 80%;
-    height: auto;
+width: 1300px;
+height: 500px;
 border-width: 4px;
 border-color: #808080;
 border-style: solid;
-margin: 5% 12%;
+margin: 50px 200px;
 text-align: center;
 border-radius: 40px;
 transition: all 0.4s;
@@ -387,35 +411,35 @@ transition: all 0.4s;
 
 .font4 {
 float: right;
-width: 60%;
+width: 800px;
 }
 
 .content41 {
-font-size: 3.125rem;
+font-size: 50px;
 color: #000000;
 font-weight: 700;
-margin: 5% 4%;
+margin: 30px 55px;
 text-align: left;
 }
 
 .content42 {
-font-size: 2.5rem;
+font-size: 40px;
 color: #ffbcc3;
 font-weight: 700;
-margin: 5% 4%;
+margin: 30px 40px;
 text-align: left;
 }
 
 .content43 {
-font-size: 1.5625rem;
+font-size: 25px;
 color: #0c0603;
-margin: 5% 3%;
+margin: 30px 20px;
 text-align: left;
 }
 
 .image4 img{
-width: 25%;
-padding: 6% 3% 4%;
+width: 350px;
+padding: 40px 20px 40px;
 transition: all 0.4s;
 }
 
@@ -425,12 +449,12 @@ transition: all 0.4s;
 
 .aboutus {
     position: relative;
-width: 85%;
-height: 75vh;
+width: 1400px;
+height: 700px;
 border-width: 8px;
 border-color: #818181;
 border-style: solid;
-margin: 6% 9.5%;
+margin: 100px 150px;
 text-align: center;
 border-radius: 40px;
 background: #fffdf5;
@@ -439,8 +463,8 @@ z-index: 1;
 
 /*沿Y轴对称*/
 .border1 img {
-    width: 20%;
-    height: auto;
+    width: 250px;
+    height: 100px;
 	transform: rotateY(180deg);
 	position: absolute;
 	top:-3%;
@@ -449,8 +473,8 @@ z-index: 1;
 }
 
 .border2 img {
-    width: 20%;
-    height: auto;
+    width: 250px;
+    height: 100px;
 	position: absolute;
 	top:-3%;
 	right:-3%;
@@ -458,8 +482,8 @@ z-index: 1;
 
 /*旋转180度*/
 .border3 img {
-    width: 20%;
-    height: auto;
+    width: 250px;
+    height: 100px;
 	transform: rotate(180deg);
 	position: absolute;
 	bottom:-3%;
@@ -468,8 +492,8 @@ z-index: 1;
 
 /*沿x轴旋转180*/
 .border4 img {
-    width: 20%;
-    height: auto;
+    width: 250px;
+    height: 100px;
 	transform:rotateX(180deg);
 	position: absolute;
 	bottom:-3%;
@@ -477,7 +501,8 @@ z-index: 1;
 }
 
 .beauty img {
-    width: 100%;
+    width: 200px;
+    height: 250px;
 	position: relative;
 	bottom: 0%;
 	right: -3%;
@@ -485,8 +510,6 @@ z-index: 1;
 }
 
 .beauty {
-    width: 15%;
-    height: auto;
     position: relative;
     float: right;
     left: -5%;
@@ -506,7 +529,7 @@ z-index: 1;
     display: none;
     background-color: #6095f4;
     border-radius: 10px;
-    width: 50%;
+    width:100px;
     position: absolute;
 }
 
@@ -516,25 +539,20 @@ z-index: 1;
 
 
 .title1 {
-font-size: 3.75rem;
+font-size: 60px;
 color: #85847d;
-}
-
-.sdt {
-    margin:0 auto;
-    width: 100%;
 }
 
 .speech, .diversity, .time{
 display: inline-block;
 text-align: center;
-width: 12%;
-height: auto;
+width: 160px;
+height: 350px;
 border-color: #861384;
 border-style: solid;
 border-width: 8px;
-padding: 2%;
-margin: 2%;
+padding: 20px;
+margin: 50px 50px;
 border-radius: 40px;
 transition: all 0.4s;
 }
@@ -564,102 +582,102 @@ width:60%
 }
 
 .speechfont, .diversityfont, .timefont {
-font-size: 1.25rem;
-margin: 5% 2%;
+font-size: 20px;
+margin: 40px 10px;
 }
 
 .contactus {
     position:absolute;
-width: 85%;
-height: 70vh;
+width: 1400px;
+height: 700px;
 border-width: 8px;
 border-color: #007c95;
 border-style: solid;
-margin: 6% 9.5%;
+margin: 60px 150px;
 text-align: center;
 border-radius: 40px;
 z-index: 1;
 }
 
 .contactus img {
-width:5%;
-height:auto;
+width:60px;
+height:45px;
 }
 
  .tree1 img {
     position: absolute;
     left: 0;
-    width: 15%;
-    height: auto;
-    top:-4%;
+    width: 200px;
+    height: 500px;
+    top:-50px;
 }
 
 .tree4 img {
     position: absolute;
-    left: -4%;
-    width: 8%;
-    height: auto ;
-    bottom: -3.5%;
+    left: -10px;
+    width: 100px;
+    height: 100px;
+    bottom: -15px;
 }
 
  .tree2 img {
     position: absolute;
-    right: -4%;
-    width: 15%;
-    height: auto;
-    top:-4%;
+    right: -20px;
+    width: 200px;
+    height: 800px;
+    top:-20px;
 }
 
 .tree3 img {
     position: absolute;
-    right: 5%;
-    width: 45%;
-    height: auto;
-    bottom: -4%;
+    right: 120px;
+    width: 600px;
+    height: 350px;
+    bottom: -50px;
 }
 
 .title2 {
-margin: 3% 7%;
+margin: 30px 50px;
 display: inline-block;
-font-size: 3.75rem;
+font-size: 60px;
 color: #374e52;
 }
 
 .contant1 {
-width: 70%;
-height: auto;
+width: 820px;
+height: 350px;
 margin: 0 auto;
 }
 
 .inf1 {
-font-size: 1.875rem;
-margin: 2%;
+font-size: 30px;
+margin: 30px;
 text-align: left;
 }
 
 .inf2 {
-font-size:1.25rem;
+font-size:20px;
 color: #717982;
-margin: 4%;
+margin: 30px;
 text-align: left;
 }
 
 .button1 {
     position: absolute;
-    width: 100%;
+    width: 1400px;
     margin: 0 auto;
 }
 
 .qq_group {   
     display: inline-block;
-width: 10%;
-height: auto;
+width: 150px;
+height: 30px;
 border-radius: 15px;
-font-size: 1.125rem;
+font-size: 18px;
 background-color: #1a7b1e;
 color: #f4faff;
-padding: 0.5% 0;
-margin: 3%;
+padding: 5px 0;
+margin: 20px;
 text-align: center;
 box-shadow: 3px 3px 3px #888888, 3px 3px 3px #888888;
 text-decoration: none;
@@ -669,14 +687,14 @@ transition: all 0.4s;
 .e-mail {
     position: relative;
     display: inline-block;
-width: 10%;
-height: auto;
+width: 150px;
+height: 30px;
 border-radius: 15px;
-font-size: 1.125rem;
+font-size: 18px;
 background-color: #1a7b1e;
 color: #f4faff;
-padding: 0.5% 0;
-margin: 3%;
+padding: 5px 0;
+margin: 20px;
 text-align: center;
 box-shadow: 3px 3px 3px #888888, 3px 3px 3px #888888;
 text-decoration: none;
@@ -686,8 +704,8 @@ transition: all 0.4s;
 
 .e-mail button{
     position: absolute;
-width: 100%;
-height: 2vh;
+width: 150px;
+height: 40px;
 opacity: 0;  /*不知道怎么实现隐藏，就让它先透明了*/
 } 
 
@@ -697,14 +715,14 @@ opacity: 0;  /*不知道怎么实现隐藏，就让它先透明了*/
 
 .github { 
 display: inline-block;
-width: 10%;
-height: auto;
+width: 150px;
+height: 30px;
 border-radius: 15px;
-font-size: 1.125rem;
+font-size: 18px;
 background-color: #1a7b1e;
 color: #f4faff;
-padding: 0.5% 0;
-margin: 3%;
+padding: 5px 0;
+margin: 20px;
 text-align: center;
 box-shadow: 3px 3px 3px #888888, 3px 3px 3px #888888;
 transition: all 0.4s;
@@ -728,38 +746,38 @@ text-decoration: none;
 }*/
 
 .error1 {
-    height: 85vh;
+    height: 850px;
 }
 
 .question {
 position: relative;
-width: 85%;
+width: 1400px;
 height: auto;
 border-width: 8px;
 border-color: #6095f4;
 border-style: solid;
-margin: 6% 8%;
+margin: 100px 150px;
 text-align: center;
 border-radius: 40px;
 background-image: url(../images/background_QA.png);
-background-size: 100% auto;
+background-size: 1400px auto;
 }
 
 .contant2 {
 height: auto;
-padding-bottom: 5%;
-width:55%;
+padding-bottom: 150px;
+width:850px;
 text-align: left;
 margin: 0 auto;
 }
 
 .title3 {
-margin: 5% 7%;
-font-size: 3.75rem;
+margin: 30px 50px;
+font-size: 60px;
 }
 
 .p {
-    width: 100%;
+    width: 850px;
     height: auto;
     transition: all 0.4s;
 } 
@@ -769,9 +787,9 @@ font-size: 3.75rem;
 }
 
 .q {   
-width: 100%;
-height: auto;
-font-size: 1.5625rem;
+width: 850px;
+height: 50px;
+font-size: 25px;
 padding-bottom: 25px;
 }
 
@@ -780,12 +798,12 @@ color: #728aa5;
 }
 
 .an {
-position: absolute;
+*position: absolute;
 display: none;
 border-radius: 10px;
 background-color: #78b1ea;
 color: #e8f6ff;
-font-size:1.25rem;
+font-size:20px;
 }
 
 /*.q:hover .an {
@@ -794,12 +812,12 @@ display: block;
 
 .bottom {
     border-top: 1px solid #808080;
-    height:auto;
-    width: 100%;
+    height:120px;
+    width: 1700px;
     background-color: #f6f7f8;
 }
 
 .box0 {
     text-align: center;
-    margin: 3%;
+    margin: 10px;
 }
